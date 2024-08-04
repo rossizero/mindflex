@@ -33,4 +33,9 @@ https://micro.ros.org/docs/tutorials/core/first_application_linux/
 ```
 ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 ```
-You should now see the esp connecting via the microros_agent
+You should now see the esp connecting via the microros_agent.
+
+If everything is wired and working as intended, you should be able to see the eeg data being published into the following topic:
+```
+ros2 topic echo /mindflex
+```
