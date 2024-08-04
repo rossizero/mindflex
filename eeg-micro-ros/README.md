@@ -1,32 +1,32 @@
-# _Sample project_
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
-
-
-
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
+# Setup
+Of the Repo
 
 ```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
+git clone --recurse-submodules https://github.com/rossizero/mindflex.git
+or if already cloned
+git submodule update --init --recursive
 ```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+Of VS Code ESP-IDF
+* install extension
+* select idf version 5.2.* (!!)
+* open the folder eeg-micro-ros in vs code
+* in terminal
+
+```
+(. $IDF_PATH/export.sh)
+pip3 install catkin_pkg lark-parser colcon-common-extensions
+# next steps also possible in vs code extension
+idf.py set-target esp32 
+# Set your micro-ROS configuration and WiFi credentials under micro-ROS Settings
+idf.py menuconfig (set ssid, password, microros port and ip of the microros_agent host)
+idf.py build
+idf.py flash
+idf.py monitor
+```
+Of microros_agent: 
+https://micro.ros.org/docs/tutorials/core/first_application_linux/
+
+```
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+```
+You should now see the esp connecting via the microros_agent
