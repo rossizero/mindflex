@@ -3,4 +3,11 @@
     "idf.openOcdConfigs": [
         "board/esp32-wrover-kit-3.3v.cfg"
     ],
+    "files.associations": {
+        "rmw_microros.h": "c",
+        "uros_network_interfaces.h": "c",
+        "int32.h": "c",
+        "int64_multi_array.h": "c"
+    },
+    "idf.port": "/dev/ttyUSB0",
 }

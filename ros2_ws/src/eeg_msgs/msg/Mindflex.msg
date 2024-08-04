@@ -1,0 +1,16 @@
+uint8 signal_quality
+uint8 attention
+uint8 meditation
+uint32[] eeg_power
+bool has_power
+string latest_error
+bool fresh_packet
+bool in_packet
+uint8 packet_index
+uint8 packet_length
+uint8[] packet_data
+uint8 latest_byte
+uint8 last_byte
+uint8 checksum
+uint8 checksum_accumulator
+string csv_buffer
