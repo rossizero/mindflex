@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/ament_cmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/ament_cmake_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/ament_index" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/ament_lint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/ament_package" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_dev/src/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/common_interfaces" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/example_interfaces" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/micro-CDR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_utilities" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rcl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rcl_logging" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rclc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rcutils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rmw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rmw_implementation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/ros2_tracing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_defaults" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_typesupport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_typesupport_microxrcedds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/test_interface_files" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeg-micro-ros/components/micro_ros_espidf_component/micro_ros_src/src/unique_identifier_msgs" vcs="Git" />
+  </component>
+</project>

@@ -97,7 +97,7 @@ void micro_ros_task(void * arg)
 		&publisher,
 		&node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
-		"mindflex"));
+		"mindflex_raw"));
 
 	// create timer,
 	rcl_timer_t timer;
